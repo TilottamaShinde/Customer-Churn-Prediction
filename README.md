@@ -19,32 +19,26 @@ Customer churn prediction is crucial for businesses to retain customers and redu
 
 Customer-Churn-Prediction/ │ ├── data/ │ └── telco.csv # Dataset file │ ├── src/ │ ├── data_preprocessing.py # Functions for loading and preprocessing data │ ├── model_training.py # Functions to train, evaluate, and save the model │ └── predict.py # Functions to load model and make predictions │ ├── model.plk # Saved trained model ├── main.py # Main driver script └── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ##  Getting Started
 
 ###  Clone the Repository
 
-```bash
+
 git clone https://github.com/TilottamaShinde/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 
 
 ***Create Virtual Environment***
-bash
-Copy
-Edit
+
 python3 -m venv .venv
 source .venv/bin/activate       # On macOS/Linux
 # OR
 .venv\Scripts\activate          # On Windows
 
 ### Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 pip install pandas scikit-learn
 
