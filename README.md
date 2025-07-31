@@ -15,11 +15,7 @@ Customer churn prediction is crucial for businesses to retain customers and redu
 - Evaluate the model using accuracy and confusion matrix  
 - Predict churn on new samples
 
-  ## 📁 Project Structure
-
-Customer-Churn-Prediction/ │ ├── data/ │ └── telco.csv # Dataset file │ ├── src/ │ ├── data_preprocessing.py # Functions for loading and preprocessing data │ ├── model_training.py # Functions to train, evaluate, and save the model │ └── predict.py # Functions to load model and make predictions │ ├── model.plk # Saved trained model ├── main.py # Main driver script └── README.md # Project documentation
-
-
+ 
 
 ##  Getting Started
 
