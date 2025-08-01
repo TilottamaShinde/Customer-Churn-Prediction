@@ -20,3 +20,4 @@ new_data = x_test[:5]
 predictions = predict_churn(loaded_model, new_data)
 
 print("Predictions on sample data ", predictions)
+
